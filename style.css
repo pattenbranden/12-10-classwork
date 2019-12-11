@@ -1,0 +1,58 @@
+header {
+    background-color:  #333333;
+    padding: 15px;
+/* I wanted to fatten up the bar a little bit more */
+/* Not happy with fix for removing gap between header and browser, but its working */
+}
+h1 {
+    color: #eee;
+    font-size: 28px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 24px;
+}
+a {
+    color: #d21034;
+}
+/* enclosed space for organization of page */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+#main-bio, #contact-info, #bio-image {
+    float: left;
+}
+/* Modifiers for the image */
+#bio-image {
+    width: 200px;
+    height: 200px;
+    /* squashed the picture, need to look at fixing that */
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+/* this bit makes the picture and text take up 70% of the .container */
+#main-bio {
+    width: 70%;
+}
+/* and this bit takes the other 30% of .container */
+#contact-info {
+    width: 30%;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+/* changes the background color, font, and text color. Also removes the padding and margin. */
+body {
+    background-color:#efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.links {
+    float: right;
+}
